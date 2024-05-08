@@ -8,9 +8,9 @@
                     </a>
                 </el-col>
                 <el-col :span="18" class="text-right">
-                    <el-button type="text">Home</el-button>
-                    <el-button type="text">About</el-button>
-                    <el-button type="text">Contact</el-button>
+                    <el-button type="text"><router-link to="/" >Home</router-link></el-button>
+                    <el-button type="text"><router-link to="/event" >Event</router-link></el-button>
+                    <el-button type="text"><router-link to="/fanart" >FanArt</router-link></el-button>
                 </el-col>
             </el-row>
         </el-header>
