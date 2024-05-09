@@ -15,6 +15,8 @@ onMounted(() => {
 
 <style>
 body{
-  background-image: url('./assets/background.jpg');
+  background-image: url('./assets/background.png');
+  background-attachment: fixed;
+  background-size: cover;
 }
 </style>
